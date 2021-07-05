@@ -1,7 +1,5 @@
 import { useState } from 'react'
-
 import '../styles/tasklist.scss'
-
 import { FiTrash, FiCheckSquare } from 'react-icons/fi'
 
 interface Task {
@@ -48,7 +46,6 @@ export function TaskList() {
     setTasks(filteredTask)
 
   }
-
   return (
     <section className="task-list container">
       <header>
